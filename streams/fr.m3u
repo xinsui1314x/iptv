@@ -151,6 +151,8 @@ https://raw.githubusercontent.com/Sphinxroot/HSL/main/DM/fr/LeMedia.m3u8
 https://live.creacast.com/littoralfm-ch1/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="LyonCapitaleTV.fr",Lyon Capitale TV
 https://raw.githubusercontent.com/Sphinxroot/HSL/main/DM/fr/LyonCapitale.m3u8
+#EXTINF:-1 tvg-id="M6.fr",M6
+http://livetv.ktv.zone/8/play.m3u8
 #EXTINF:-1 tvg-id="MaisonTravauxTV.fr",Maison&Travaux
 https://raw.githubusercontent.com/Sphinxroot/HSL/main/DM/fr/Maison&Travaux.m3u8
 #EXTINF:-1 tvg-id="MDL.fr",MDL (720p)
