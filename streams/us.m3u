@@ -263,8 +263,6 @@ https://playout4multirtmp.tulix.tv/live7/Stream1/playlist.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=269
 #EXTINF:-1 tvg-id="",Car Magazine TV
 https://number27.playout.vju.tv/number27/main.m3u8?test=1
-#EXTINF:-1 tvg-id="CartoonNetworkEast.us",Cartoon Network East TVE Feed (Adaptive) (720p) [Geo-Blocked] [Not 24/7]
-https://raw.githubusercontent.com/Alstruit/adaptive-streams/alstruit-10_23_us/streams/us/CartoonNetworkEast.us.m3u8
 #EXTINF:-1 tvg-id="CatholicTV.us",Catholic TV
 https://catholictvhd-lh.akamaized.net/hls/live/2043390/CTVLiveHD/master.m3u8
 #EXTINF:-1 tvg-id="CBNEspanol.us",CBN Español (1080p)
@@ -1140,3 +1138,7 @@ https://thegateway.app/YouToo/CueTones/playlist.m3u8
 https://thegateway.app/YouToo/YTamerica/playlist.m3u8
 #EXTINF:-1 tvg-id="HopeChannelAfrica.us",Hope Channel Africa (1080p)
 https://videodelivery.net/3dab4197cbdc656fa4a498285a3a4d67/manifest/video.m3u8
+#EXTINF:-1 tvg-id="AMCEast.us",AMC East
+http://170.254.18.106/AMC/mono.m3u8
+#EXTINF:-1 tvg-id="Reelz.us",Reelz
+https://bcovlive-a.akamaihd.net/rc21a8bc6455344c699a06e9220fe2748/us-west-2/5245389775001/playlist.m3u8
