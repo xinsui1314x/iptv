@@ -233,8 +233,6 @@ https://reflect-batv.cablecast.tv/live-3/live/live.m3u8
 https://reflect-batv.cablecast.tv/live-5/live/live.m3u8
 #EXTINF:-1 tvg-id="KMBYLD5.us",BLUES TV
 https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8
-#EXTINF:-1 tvg-id="BrazzersTVEurope.us",Brazzers TV Europe (720p)
-https://cdn-main.lolokoko.tv/BRAZZERS.stream/chunks.m3u8
 #EXTINF:-1 tvg-id="bspoketv.us",bspoketv (1080p) [Not 24/7]
 https://bspoketv.s.llnwi.net/streams/322/master.m3u8
 #EXTINF:-1 tvg-id="BusinessRockstars.us",Business Rockstars (720p)
@@ -555,8 +553,6 @@ http://uni8rtmp.tulix.tv:1935/shalomtv-pc/smil:shalomtv.smil/playlist.m3u8
 https://uni8rtmp.tulix.tv/shalomtv-pc/smil:shalomtv.smil/master.m3u8
 #EXTINF:-1 tvg-id="",Jeffrey A Swanson Photography (720p)
 https://app.viloud.tv/hls/channel/07c8b76fa3a98409d527cede85852d55.m3u8
-#EXTINF:-1 tvg-id="JennyForYou.us",Jenny For You (720p)
-https://59ec5453559f0.streamlock.net/JennyForYou/smil:WEB3131/playlist.m3u8
 #EXTINF:-1 tvg-id="JewelryTV.us",Jewelry Television (720p)
 https://cdn3.wowza.com/1/eUdsNEcyMmRvckor/K3pydHZw/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="JewelryTVExtra.us",Jewelry TV Extra (720p)
@@ -617,10 +613,6 @@ https://rpn1.bozztv.com/36bay2/gusa-mwg/playlist.m3u8
 https://5b3050bb1b2d8.streamlock.net/majestadtv/majestadtv/playlist.m3u8
 #EXTINF:-1 tvg-id="MBCAmerica.us",MBC America (480p)
 https://dacastmmd.mmdlive.lldns.net/dacastmmd/1c94dc9f1c08487a97995571800b9667/index.m3u8
-#EXTINF:-1 tvg-id="MiamiTV.us",MiamiTV (1080p)
-https://59ec5453559f0.streamlock.net/miamitv/smil:WEB3131/playlist.m3u8
-#EXTINF:-1 tvg-id="MiamiTVLatino.us",MiamiTV Latino (1080p)
-https://59ec5453559f0.streamlock.net/Latino/smil:WEB3131/playlist.m3u8
 #EXTINF:-1 tvg-id="MissionTV.us",Mission TV (1080p) [Not 24/7]
 https://6096a9cf11ae5.streamlock.net:1943/live/missiontv/playlist.m3u8
 #EXTINF:-1 tvg-id="MissionTV.us",Mission TV (720p) [Not 24/7]
@@ -727,8 +719,6 @@ https://paraglidingtv.playout.vju.tv/paraglidingtv/main.m3u8
 https://g5nl6xx5lpq6-hls-live.5centscdn.com/live1234/2621b29e501b445fabf227b086123b70.sdp/mono.m3u8
 #EXTINF:-1 tvg-id="PayvandTV.us",Payvand TV (720p) [Not 24/7]
 http://uni6rtmp.tulix.tv:1935/ucur1/Payvand/playlist.m3u8
-#EXTINF:-1 tvg-id="PenthouseGold.us",Penthouse Gold (1080p)
-http://51.159.102.100/PenthouseGold/index.m3u8
 #EXTINF:-1 tvg-id="PeopleTV.us",People TV (1080p)
 https://d1qaz9zojo1ayt.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="PeopleTV.us",People TV (1080p)
@@ -737,8 +727,6 @@ https://peopletv-oo.akamaized.net/playlist.m3u8
 https://peopletv-samsungus-ingest.akamaized.net/playlist.m3u8
 #EXTINF:-1 tvg-id="PlantBasedNetwork.us",Plant Based Network (1080p) [Not 24/7]
 https://hls-cdn.tvstartup.net/barakyah-channel/live/pbtv/playlist.m3u8
-#EXTINF:-1 tvg-id="PlayboyTVLatinAmericaHD.us",Playboy TV Latin America (1080p)
-http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="PositivTV.us",Positiv (720p)
 https://tbn-jw.cdn.vustreams.com/live/positivtv/live.isml/playlist.m3u8
 #EXTINF:-1 tvg-id="PottaDivineTVUSA.us",Potta-Divine TV USA (480p)
@@ -846,10 +834,6 @@ https://live2.tensila.com/knut-v-1.choice/hls/master.m3u8
 https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/stockton/G0044_008/playlist.m3u8
 #EXTINF:-1 tvg-id="SUMtvLatino.us",SUMtv Latino (1080p)
 https://bozztv.com/uni10rtmp/ssstv2-cdn/smil:ssstv2web.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SunBeachTV.us",SunBeach TV (1080p)
-https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexico/playlist.m3u8
-#EXTINF:-1 tvg-id="SundanceTVEast.us",SundanceTV East (1080p)
-https://bcovlive-a.akamaihd.net/b68f4655411b4fe18b32d68bf68b067d/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 tvg-id="SwordandShield.us",Sword and Shield (720p)
 https://a.jsrdn.com/broadcast/9e63a1b236/+0000/c.m3u8
 #EXTINF:-1 tvg-id="TAGTV.us",TAG TV (1080p) [Not 24/7]
@@ -1146,11 +1130,31 @@ https://bcovlive-a.akamaihd.net/rc21a8bc6455344c699a06e9220fe2748/us-west-2/5245
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8
 #EXTINF:-1 tvg-id="IntheKitchen.us",In the kitchen
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4us/master.m3u8
-#EXTINF:-1 tvg-id="HSN2.us",HSN2
+#EXTINF:-1 tvg-id="HSN.us",HSN
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1us/master.m3u8
+#EXTINF:-1 tvg-id="HSN2.us",HSN2
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn2us/master.m3u8
+#EXTINF:-1 tvg-id="",Everyday Refresh
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc6us/master.m3u8
+#EXTINF:-1 tvg-id="",QVC West
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1uswest/master.m3u8
+#EXTINF:-1 tvg-id="",HSN West
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lshsn1uswest/master.m3u8
 #EXTINF:-1 tvg-id="QVC2.us",QVC 2
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2us/master.m3u8
 #EXTINF:-1 tvg-id="QVC.us",QVC
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1us/master.m3u8
 #EXTINF:-1 tvg-id="MarqueeSportsNetwork.us",Marquee Sports Network
 https://marqueelive.akamaized.net/live-pz/a/hls-itc/marquee1/index.m3u8
+#EXTINF:-1 tvg-id="WTSPDT1.us",WTSP CBS 10 (Tampa FL) (1080p)
+https://video.tegnaone.com/wtsp/live/v1/master/f9c1bf9ffd6ac86b6173a7c169ff6e3f4efbd693/WTSP-Production/live/index.m3u8
+#EXTINF:-1 tvg-id="WTSPDT1.us",CBS WTSPDT (720p)
+https://cbsplaylistserver.aws.syncbak.com/mpl/20160401/859169/5743360/media.m3u8?request_token=qvU7-FK2v-GKFp6gT19Ca6OGg-7v2h3rb7CH8dJb24xGNa9SybZzeslmzXfSuKr8yvmFHpHArbAEAylrbjN8plkYyR_E_ONwoEO5VbCnWRbPltjgakUcV3v7Ap37IjAJykCk5YrCty_Hx7AsXhusoGCdNFX5UwEk7oT3u6_r2xG4QXk&CMCD=mtp%3D9500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%224e546942-2006-495c-a946-06b8f3a0faca%22
+#EXTINF:-1 tvg-id="",MAV Select CANADA
+https://d70mb4nkspm3g.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-vvwqo3j029lz0/playlist.m3u8
+#EXTINF:-1 tvg-id="",MAV Select USA
+https://d3h07n6l1exhds.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0z2yyo4dxctc7/playlist.m3u8
+#EXTINF:-1 tvg-id="",MAVTV Motor Sports UK
+https://amg00378-maverickenterta-mavtv-smn-gb-samsung-rakuten-ozity.amagi.tv/playlist/amg00378-maverickenterta-mavtv-smn-gb-samsung-rakuten/playlist.m3u8
+#EXTINF:-1 tvg-id="",MAVTV Motor Sports IN
+https://84f081227bc1418984b9e3dcaa985b2b.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-in_MAVTVMotorSportsNetwork/playlist.m3u8

@@ -91,8 +91,6 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="emsTVLingen.de",ems TV Lingen (720p)
 https://h058.video-stream-hosting.de/ev1tv-live/_definst_/mp4:stream1.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="Eropulsde.de",Eropuls.de (576p)
-https://api.alpaca.t62a.com/hls/9108/index.m3u8
 #EXTINF:-1 tvg-id="ErzTVStollberg.de",Erz-TV Stollberg (576p)
 https://5acade5fc0c29.streamlock.net/kabeljournal/live2020.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="EuroAlTV.de",EuroAl TV (720p)
@@ -465,8 +463,6 @@ https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
 https://edge14.vedge.infomaniak.com/livecast/ik:wir24tv_hms/manifest.m3u8
 #EXTINF:-1 tvg-id="WWTV.de",WW TV (720p)
 https://live2.telvi.de/hls/wwtv_hd720.m3u8
-#EXTINF:-1 tvg-id="XXXCartoons.de",XXX Cartoons (520p)
-http://144.76.58.245:2307/cartoon/index.m3u8
 #EXTINF:-1 tvg-id="ZDF.de",ZDF (720p) [Geo-blocked]
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
 #EXTINF:-1 tvg-id="ZDFinfo.de",ZDFinfo (720p) [Geo-blocked]
