@@ -389,6 +389,8 @@ https://ov.ottera.tv/live/master.m3u8?channel=elec_en
 https://hls-cdn.tvstartup17.net/tvstartup17-channel/live/mp4:emtmediaedge/playlist.m3u8
 #EXTINF:-1 tvg-id="EntrepreneurTV.us",Entrepreneur (720p)
 https://a.jsrdn.com/broadcast/7582ed85f7/+0000/c.m3u8
+#EXTINF:-1 tvg-id="EntertainmentTonight.us",Entertainment Tonight (720p)
+https://cbsta49f-cbsta49f-ms.global.ssl.fastly.net/amagi7b98-AmagiMixible/master/amagi7b98-AmagiMixible.m3u8
 #EXTINF:-1 tvg-id="",ESR 24x7 eSports Network (1080p)
 https://eyeonesports.com/ES2RA-628g.m3u8
 #EXTINF:-1 tvg-id="EternalLifeTVNetwork.us",Eternal Life TV Network (1080p)
@@ -411,8 +413,6 @@ https://cdn3.wowza.com/1/TUI5dU5ucnUxdGFD/ZFlVeGRl/hls/live/playlist.m3u8
 https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="EWTN.us",EWTN United States (720p)
 https://cdn3.wowza.com/1/QjRzVXJtVml5SUVx/WGJRSWxz/hls/live/playlist.m3u8
-#EXTINF:-1 tvg-id="",External Ottera (720p)
-https://otteravision-tg.ottera.tv/live/master.m3u8?channel=tg_tg_us
 #EXTINF:-1 tvg-id="ExtremaTV.us",Extrema TV (720p)
 http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8
 #EXTINF:-1 tvg-id="EYE95America.us",EYE95 America (1080p) [Not 24/7]
@@ -441,8 +441,6 @@ https://584b0aa350b92.streamlock.net/folk-tv/myStream.sdp/playlist.m3u8
 http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us",Fox Weather (720p)
 https://247wlive.foxweather.com/stream/index.m3u8
-#EXTINF:-1 tvg-id="FMTV.us",Frecuencia Musical TV (720p)
-https://cloud2.streaminglivehd.com:1936/8018/8018/playlist.m3u8
 #EXTINF:-1 tvg-id="FreeSpeechTV.us",Free Speech TV (720p)
 https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/index.m3u8
 #EXTINF:-1 tvg-id="FunRoads.us",Fun Roads (404p)
@@ -1164,3 +1162,19 @@ https://ythls.armelin.one/channel/UChDKyKQ59fYz3JO2fl0Z6sg.m3u8
 https://srv2.tropicalmoonmedia.com/dreamforcebtltv/dreamforcebtltv/playlist.m3u8
 #EXTINF:-1 tvg-id="Novelisima.us",Novelisima
 https://dai.google.com/linear/hls/event/sFuxwI37R9KMTs-KywMcBg/master.m3u8
+#EXTINF:-1 tvg-id="FMTV.us",Frecuencia Musical TV [Not 24/7]
+https://s2.tvdatta.com:3307/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="NickelodeonEast.us",Nickelodeon East (720p)
+http://143.244.60.30/NICKELODEON/index.m3u8
+#EXTINF:-1 tvg-id="MBC3USA.us",MBC 5
+https://mbc-3-usa-ak.akamaized.net/out/v1/8bbfec9446d84c9ea0dfa34edede6db9/index.m3u8
+#EXTINF:-1 tvg-id="MBC1USA.us",MBC 1
+https://mbc-1-usa-ak.akamaized.net/out/v1/8c1ce74bfd0743aab1026ef5b2aecfa4/index.m3u8
+#EXTINF:-1 tvg-id="MSNBC.us",MSNBC (1080p)
+http://41.205.93.154/MSNBC/index.m3u8
+#EXTINF:-1 tvg-id="FoxBusinessNetwork.us",FOX Business (1080p)
+http://41.205.93.154/FOXBUSINESS/index.m3u8
+#EXTINF:-1 tvg-id="DisneyXDEast.us",Disney XD
+http://38.96.178.201:80/live/DisneyXD/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelEast.us",Disney Channel
+http://38.96.178.201/live/Disney/index.m3u8
