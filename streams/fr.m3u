@@ -27,6 +27,8 @@ http://livevideo.vedge.infomaniak.com/livecast/ik:bblackclassik/manifest.m3u8
 https://biptv.tv/live/biptvstream_orig/index.m3u8
 #EXTINF:-1 tvg-id="Boomerang.fr",Boomerang France (720p)
 http://51.81.185.2/BOOMERANG/index.m3u8
+#EXTINF:-1 tvg-id="BostraTV.fr",Bostra TV (720p) [Not 24/7]
+https://ythls.armelin.one/channel/UCYEWRYZaggmEj0lFzmwf7Jg.m3u8
 #EXTINF:-1 tvg-id="BrionnaisTV.fr",Brionnais TV
 https://live.mandarine.media/BrionnaisTV/BrionnaisTV/playlist.m3u8
 #EXTINF:-1 tvg-id="C8.fr",C8
@@ -37,6 +39,8 @@ http://www.callofliberty.fr/stream/C8/master.m3u8
 http://livevideo.vedge.infomaniak.com/livecast/ik:canal32/manifest.m3u8
 #EXTINF:-1 tvg-id="Canal32.fr",Canal 32 (480p)
 https://edge13.vedge.infomaniak.com/livecast/ik:canal32/manifest.m3u8
+#EXTINF:-1 tvg-id="CDirect.fr",CDirect (360p)
+http://51.254.199.122:8080/cdirectTV/index.m3u8
 #EXTINF:-1 tvg-id="CentralTV.fr",Central TV (614p) [Not 24/7]
 http://cdn2.ujjina.com:1935/iptvcentraltv/livecentraltvtv/playlist.m3u8
 #EXTINF:-1 tvg-id="Cherie25.fr",Chérie 25 (1080p)
@@ -77,6 +81,8 @@ https://5421175365ea3.streamlock.net/live/smil:switch.smil/playlist.m3u8
 https://raw.githubusercontent.com/Sphinxroot/HSL/main/DM/fr/FunRadio.m3u8
 #EXTINF:-1 tvg-id="FunRadio.fr",Fun Radio (720p)
 https://livevideo.infomaniak.com/streaming/livecast/funradiovisionhd/playlist.m3u8
+#EXTINF:-1 tvg-id="FX2.fr",FX2 Farsi
+https://toonixhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr",Generations TV (576p)
 https://edge.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="HANDICAPTV.fr",HANDICAP TV France
@@ -221,3 +227,8 @@ https://live.digiteka.com/1/WGQ1NnhEN0lzM0NU/dk1EOHhw/hls/live/playlist.m3u8
 https://live.digiteka.com/1/Zks2L0VsM2V0T242/QTBqcFly/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="France24English.fr",France 24 English (1080p)
 http://n1.klowdtv.net/live2/france24_720p/chunks.m3u8
+#EXTINF:-1 tvg-id="TV5MondeAsia.fr",TV5 Monde Asia (Asie) (1080p) [Geo-blocked]
+https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8
+#EXTINF:-1 tvg-id="RMCDecouverte.fr",RMC Découverte (1080p)
+#EXTVLCOPT:http-referrer=http://callofliberty.fr/
+http://s2.callofliberty.fr/direct/RMCDECOUVERTE/manifest.m3u8
