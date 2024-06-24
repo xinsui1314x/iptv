@@ -311,8 +311,6 @@ https://ythls.armelin.one/channel/UCsHdPPJXT-yKVTLGkn3DSvQ.m3u8
 https://ythls.armelin.one/channel/UCQIycDaLsBpMKjOCeaKUYVg.m3u8
 #EXTINF:-1 tvg-id="CNBCTV18.in",CNBC TV18 (720p) [Not 24/7]
 https://ythls.armelin.one/channel/UCmRbHAgG2k2vDUvb3xsEunQ.m3u8
-#EXTINF:-1 tvg-id="CNNBrasil.br",CNN Brasil (1080p) [Not 24/7]
-https://ythls.armelin.one/channel/UCvdwhh_fDyWccR42-rReZLw.m3u8
 #EXTINF:-1 tvg-id="CNNNews18.in",CNN News 18 (720p) [Not 24/7]
 https://ythls.armelin.one/channel/UCef1-8eOpJgud7szVPlZQAQ.m3u8
 #EXTINF:-1 tvg-id="CongresoTV.pe",Congreso TV (720p) [Not 24/7]
@@ -627,6 +625,8 @@ https://ythls.armelin.one/channel/UChd1DEecCRlxaa0-hvPACCw.m3u8
 https://ythls.armelin.one/channel/UC9hyY_wWSJnkUKPfrfOP4dQ.m3u8
 #EXTINF:-1 tvg-id="K21News.pk",K21 News (480p) [Not 24/7]
 https://ythls.armelin.one/channel/UC7g-LI8ueb6qTFZ5-gDgrGg.m3u8
+#EXTINF:-1 tvg-id="KairaliNews.in",Kairali News
+https://ythls.armelin.one/channel/UCnEvxaWfVL91XIYuyQRO5QA.m3u8
 #EXTINF:-1 tvg-id="KamemeTV.ke",Kameme TV (720p) [Not 24/7]
 https://ythls.armelin.one/channel/UCd9nkc2XA77NMxBvQz35I2Q.m3u8
 #EXTINF:-1 tvg-id="Kanal9Erzgebirge.de",Kanal 9 Erzgebirge (1080p) [Not 24/7]
