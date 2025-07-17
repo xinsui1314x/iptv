@@ -6,15 +6,8 @@
     "country": "AD",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "c/AD"
-    ],
-    "languages": [
-      "cat"
-    ],
     "categories": [],
-    "is_nsfw": false,
-    "logo": null
+    "is_nsfw": false
   },
   {
     "id": "BBCNews.uk",
@@ -23,18 +16,11 @@
     "country": "UK",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "r/INT"
-    ],
-    "languages": [
-      "eng"
-    ],
     "categories": [
       "news",
       "general"
     ],
-    "is_nsfw": false,
-    "logo": "https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png"
+    "is_nsfw": false
   },
   {
     "id": "Eve.us",
@@ -43,15 +29,8 @@
     "country": "US",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "c/US"
-    ],
-    "languages": [
-      "eng"
-    ],
     "categories": [],
-    "is_nsfw": false,
-    "logo": "https://www.lyngsat.com/logo/tv/ee/eve_us.png"
+    "is_nsfw": false
   },
   {
     "id": "EverydayHeroes.us",
@@ -60,15 +39,8 @@
     "country": "US",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "c/US"
-    ],
-    "languages": [
-      "eng"
-    ],
     "categories": [],
-    "is_nsfw": false,
-    "logo": "https://i.imgur.com/Iam3ol3.png"
+    "is_nsfw": false
   },
   {
     "id": "FoxSports1.us",
@@ -77,32 +49,18 @@
     "country": "US",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "c/US"
-    ],
-    "languages": [
-      "eng"
-    ],
     "categories": [],
-    "is_nsfw": false,
-    "logo": "https://cdn.tvpassport.com/image/station/100x100/fs1.png"
+    "is_nsfw": false
   },
   {
-    "id": "FoxSports2Asia.us",
-    "name": "Fox Sports 2 Asia",
+    "id": "FoxSports2.us",
+    "name": "Fox Sports 2",
     "network": null,
     "country": "US",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "c/US"
-    ],
-    "languages": [
-      "eng"
-    ],
     "categories": [],
-    "is_nsfw": false,
-    "logo": null
+    "is_nsfw": false
   },
   {
     "id": "LDPRTV.ru",
@@ -111,17 +69,10 @@
     "country": "RU",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "c/RU"
-    ],
-    "languages": [
-      "rus"
-    ],
     "categories": [
       "general"
     ],
-    "is_nsfw": false,
-    "logo": "https://iptvx.one/icn/ldpr-tv.png"
+    "is_nsfw": false
   },
   {
     "id": "LibyasChannel.ly",
@@ -130,15 +81,8 @@
     "country": "LY",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "c/LY"
-    ],
-    "languages": [
-      "eng"
-    ],
     "categories": [],
-    "is_nsfw": false,
-    "logo": "https://i.imgur.com/RD9wbNF.jpg"
+    "is_nsfw": false
   },
   {
     "id": "MeteoMedia.ca",
@@ -147,17 +91,10 @@
     "country": "CA",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "s/CA-ON"
-    ],
-    "languages": [
-      "fru"
-    ],
     "categories": [
       "weather"
     ],
-    "is_nsfw": false,
-    "logo": "https://s1.twnmm.com/images/en_ca/mobile/logos/twn-mobile-logo.png"
+    "is_nsfw": false
   },
   {
     "id": "TVN.pl",
@@ -166,15 +103,8 @@
     "country": "PL",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "c/PL"
-    ],
-    "languages": [
-      "pol"
-    ],
     "categories": [],
-    "is_nsfw": false,
-    "logo": "https://www.sms.cz/kategorie/televize/bmp/loga/velka/TVN.png"
+    "is_nsfw": false
   },
   {
     "id": "VisitXTV.nl",
@@ -183,17 +113,10 @@
     "country": "NL",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "r/INT"
-    ],
-    "languages": [
-      "nld"
-    ],
     "categories": [
       "xxx"
     ],
-    "is_nsfw": true,
-    "logo": "https://i.imgur.com/RJ9wbNF.jpg"
+    "is_nsfw": true
   },
   {
     "id": "TUTV.us",
@@ -202,17 +125,10 @@
     "country": "US",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "c/US"
-    ],
-    "languages": [
-      "eng"
-    ],
     "categories": [
       "general"
     ],
-    "is_nsfw": false,
-    "logo": "https://i.imgur.com/RJ9wbN4.jpg"
+    "is_nsfw": false
   },
   {
     "id": "ManoramaNews.in",
@@ -225,12 +141,6 @@
     "country": "IN",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "c/IN"
-    ],
-    "languages": [
-      "mal"
-    ],
     "categories": [
       "news"
     ],
@@ -238,8 +148,7 @@
     "launched": "2006-08-17",
     "closed": null,
     "replaced_by": null,
-    "website": "https://www.manoramanews.com",
-    "logo": "https://i.imgur.com/adjRrVx.png"
+    "website": "https://www.manoramanews.com"
   },
   {
     "id": "TV3.my",
@@ -250,12 +159,6 @@
     "country": "MY",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "c/MY"
-    ],
-    "languages": [
-      "eng"
-    ],
     "categories": [
       "news"
     ],
@@ -263,24 +166,17 @@
     "launched": null,
     "closed": null,
     "replaced_by": null,
-    "website": null,
-    "logo": "https://i.imgur.com/adjRrVx.png"
+    "website": null
   },
   {
-    "id": "BBCAmericaEast.us",
-    "name": "BBC America East",
+    "id": "BBCAmerica.us",
+    "name": "BBC America",
     "alt_names": [],
     "network": null,
     "owners": [],
     "country": "US",
     "subdivision": null,
     "city": null,
-    "broadcast_area": [
-      "c/US"
-    ],
-    "languages": [
-      "eng"
-    ],
     "categories": [
       "news"
     ],
@@ -288,7 +184,490 @@
     "launched": null,
     "closed": null,
     "replaced_by": null,
-    "website": null,
-    "logo": "https://i.imgur.com/adjRrVx.png"
+    "website": null
+  },
+  {
+    "id": "ATVPlus.pe",
+    "name": "ATV+",
+    "alt_names": [],
+    "network": null,
+    "owners": [
+      "Grupo ATV"
+    ],
+    "country": "PE",
+    "subdivision": "PE-LIM",
+    "city": "Lima",
+    "categories": [
+      "news"
+    ],
+    "is_nsfw": false,
+    "launched": null,
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://www.atv.pe/"
+  },
+  {
+    "id": "BeanoTV.uk",
+    "name": "Beano TV",
+    "alt_names": [],
+    "network": null,
+    "owners": [],
+    "country": "UK",
+    "subdivision": null,
+    "city": "London",
+    "categories": [
+      "series"
+    ],
+    "is_nsfw": false,
+    "launched": null,
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://www.beanostudios.com/"
+  },
+  {
+    "id": "ATX.jp",
+    "name": "AT-X",
+    "alt_names": [
+      "アニメシアターX"
+    ],
+    "network": null,
+    "owners": [
+      "AT-X Inc"
+    ],
+    "country": "JP",
+    "subdivision": null,
+    "city": "Tokyo",
+    "categories": [
+      "animation"
+    ],
+    "is_nsfw": false,
+    "launched": "1997-12-24",
+    "closed": null,
+    "replaced_by": null,
+    "website": "http://www.at-x.com/"
+  },
+  {
+    "id": "AajTak.in",
+    "name": "Aaj Tak",
+    "alt_names": [],
+    "network": null,
+    "owners": [
+      "Living Media"
+    ],
+    "country": "IN",
+    "subdivision": null,
+    "city": "Noida",
+    "categories": [
+      "news"
+    ],
+    "is_nsfw": false,
+    "launched": "2000-12-31",
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://www.aajtak.in/livetv"
+  },
+  {
+    "id": "Weathernews.jp",
+    "name": "Weathernews",
+    "alt_names": [],
+    "network": null,
+    "owners": [],
+    "country": "JP",
+    "subdivision": null,
+    "city": null,
+    "categories": [
+      "weather"
+    ],
+    "is_nsfw": false,
+    "launched": null,
+    "closed": null,
+    "replaced_by": null,
+    "website": null
+  },
+  {
+    "id": "MethTV.lk",
+    "name": "Meth TV",
+    "alt_names": [],
+    "network": null,
+    "owners": [
+      "Meth Lanka Private Limited"
+    ],
+    "country": "LK",
+    "subdivision": null,
+    "city": "Athurugiriya",
+    "categories": [
+      "religious"
+    ],
+    "is_nsfw": false,
+    "launched": null,
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://methtv.lk/"
+  },
+  {
+    "id": "Match4.hu",
+    "name": "Match4",
+    "alt_names": [],
+    "network": null,
+    "owners": [],
+    "country": "HU",
+    "subdivision": null,
+    "city": null,
+    "categories": [
+      "sports"
+    ],
+    "is_nsfw": false,
+    "launched": null,
+    "closed": null,
+    "replaced_by": null,
+    "website": null
+  },
+  {
+    "id": "FastTV.us",
+    "name": "Fast TV",
+    "alt_names": [
+      "MotorTrend Fast TV"
+    ],
+    "network": null,
+    "owners": [
+      "Warner Brothers",
+      "MotorTrend"
+    ],
+    "country": "US",
+    "subdivision": null,
+    "city": null,
+    "categories": [],
+    "is_nsfw": false,
+    "launched": "2022-10-26",
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://watch.motortrend.com/"
+  },
+  {
+    "id": "MCOTHD.th",
+    "name": "MCOT HD",
+    "alt_names": [
+      "บริษัท อสมท จำกัด (มหาชน)"
+    ],
+    "network": "MCOT",
+    "owners": [
+      "Ministry of Finance"
+    ],
+    "country": "TH",
+    "subdivision": null,
+    "city": "Bangkok",
+    "categories": [
+      "general"
+    ],
+    "is_nsfw": false,
+    "launched": "1955-06-24",
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://tv.mcot.net/mcothd"
+  },
+  {
+    "id": "AmarinTV.th",
+    "name": "Amarin TV",
+    "alt_names": [
+      "อมรินทร์ทีวี เอชดี ช่อง 34"
+    ],
+    "network": null,
+    "owners": [
+      "Amarin Television"
+    ],
+    "country": "TH",
+    "subdivision": null,
+    "city": "Bangkok",
+    "categories": [
+      "entertainment"
+    ],
+    "is_nsfw": false,
+    "launched": "2012-12-01",
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://www.amarintv.com/"
+  },
+  {
+    "id": "France2.fr",
+    "name": "France 2",
+    "alt_names": [],
+    "network": null,
+    "owners": [
+      "France Télévisions"
+    ],
+    "country": "FR",
+    "subdivision": null,
+    "city": "Paris",
+    "categories": [
+      "general"
+    ],
+    "is_nsfw": false,
+    "launched": "1959-09-10",
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://www.france.tv/france-2/"
+  },
+  {
+    "id": "France3.fr",
+    "name": "France 3",
+    "alt_names": [],
+    "network": null,
+    "owners": [
+      "France Télévisions"
+    ],
+    "country": "FR",
+    "subdivision": null,
+    "city": "Paris",
+    "categories": [
+      "general"
+    ],
+    "is_nsfw": false,
+    "launched": "1972-12-31",
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://www.france.tv/france-3/"
+  },
+  {
+    "id": "France5.fr",
+    "name": "France 5",
+    "alt_names": [],
+    "network": null,
+    "owners": [
+      "France Télévisions"
+    ],
+    "country": "FR",
+    "subdivision": null,
+    "city": "Paris",
+    "categories": [
+      "general"
+    ],
+    "is_nsfw": false,
+    "launched": "1994-12-13",
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://www.france.tv/france-5/"
+  },
+  {
+    "id": "France3.fr",
+    "name": "France 3",
+    "alt_names": [],
+    "network": null,
+    "owners": [
+      "France Télévisions"
+    ],
+    "country": "FR",
+    "subdivision": null,
+    "city": "Paris",
+    "categories": [
+      "general"
+    ],
+    "is_nsfw": false,
+    "launched": "1962-01-01",
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://france3-regions.francetvinfo.fr/nouvelle-aquitaine/"
+  },
+  {
+    "id": "TF1.fr",
+    "name": "TF1",
+    "alt_names": [
+      "Télévision française 1"
+    ],
+    "network": null,
+    "owners": [],
+    "country": "FR",
+    "subdivision": null,
+    "city": null,
+    "categories": [
+      "entertainment"
+    ],
+    "is_nsfw": false,
+    "launched": "1975-01-06",
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://www.tf1.fr"
+  },
+  {
+    "id": "TF1SeriesFilms.fr",
+    "name": "TF1 Series Films",
+    "alt_names": [
+      "TF1 Séries Films"
+    ],
+    "network": null,
+    "owners": [
+      "TF1 Group"
+    ],
+    "country": "FR",
+    "subdivision": null,
+    "city": null,
+    "categories": [
+      "movies"
+    ],
+    "is_nsfw": false,
+    "launched": null,
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://www.tf1.fr/tf1-series-films"
+  },
+  {
+    "id": "TMC.fr",
+    "name": "TMC",
+    "alt_names": [],
+    "network": null,
+    "owners": [
+      "Groupe TF1"
+    ],
+    "country": "FR",
+    "subdivision": null,
+    "city": null,
+    "categories": [
+      "general"
+    ],
+    "is_nsfw": false,
+    "launched": "1954-11-19",
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://www.tf1.fr/tmc"
+  },
+  {
+    "id": "TFX.fr",
+    "name": "TFX",
+    "alt_names": [],
+    "network": null,
+    "owners": [],
+    "country": "FR",
+    "subdivision": null,
+    "city": null,
+    "categories": [],
+    "is_nsfw": false,
+    "launched": null,
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://www.tf1.fr/tfx"
+  },
+  {
+    "id": "ManoramaNews.in",
+    "name": "Manorama News",
+    "alt_names": [],
+    "network": "Malayala Manorama Television",
+    "owners": [
+      "Malayala Manorama Group"
+    ],
+    "country": "IN",
+    "subdivision": null,
+    "city": "Kottayam",
+    "categories": [
+      "news"
+    ],
+    "is_nsfw": false,
+    "launched": "2006-08-17",
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://www.manoramanews.com"
+  },
+  {
+    "id": "13thStreet.au",
+    "name": "13th Street",
+    "alt_names": [],
+    "network": null,
+    "owners": [
+      "NBCUniversal"
+    ],
+    "country": "AU",
+    "subdivision": null,
+    "city": "New York City",
+    "categories": [
+      "entertainment"
+    ],
+    "is_nsfw": false,
+    "launched": "2009-11-15",
+    "closed": "2019-12-31",
+    "replaced_by": "Sleuth.au",
+    "website": "http://www.13thstreet.com.au/"
+  },
+  {
+    "id": "Zoo.ad",
+    "name": "Zoo",
+    "network": null,
+    "country": "CA",
+    "subdivision": null,
+    "city": null,
+    "categories": [],
+    "is_nsfw": false
+  },
+  {
+    "id": "DunaWorld.hu",
+    "name": "Duna World",
+    "network": null,
+    "country": "HU",
+    "subdivision": null,
+    "city": null,
+    "categories": [
+      "General"
+    ],
+    "is_nsfw": false
+  },
+  {
+    "id": "ElTR.kg",
+    "name": "ElTR",
+    "alt_names": [
+      "ЭлТР",
+      "МТРК ЭлТР",
+      "Эл каналы",
+      "ЭлТР Кыргызстан",
+      "ELTR Kyrgyzstan"
+    ],
+    "network": "ElTR",
+    "owners": [
+      "ElTR"
+    ],
+    "country": "KG",
+    "subdivision": null,
+    "city": "Bishkek",
+    "broadcast_area": [
+      "r/CAS"
+    ],
+    "languages": [
+      "kir",
+      "rus"
+    ],
+    "categories": [
+      "general"
+    ],
+    "is_nsfw": false,
+    "launched": null,
+    "closed": null,
+    "replaced_by": null,
+    "website": "https://eltr.kg"
+  },
+  {
+    "id": "IONTV.us",
+    "name": "ION TV",
+    "network": null,
+    "country": "US",
+    "subdivision": null,
+    "city": null,
+    "categories": [],
+    "is_nsfw": false
+  },
+  {
+    "id": "NPO1.nl",
+    "name": "NPO 1",
+    "network": null,
+    "country": "NL",
+    "subdivision": null,
+    "city": null,
+    "categories": [],
+    "is_nsfw": false
+  },
+  {
+    "id": "NPO2.nl",
+    "name": "NPO 2",
+    "network": null,
+    "country": "NL",
+    "subdivision": null,
+    "city": null,
+    "categories": [],
+    "is_nsfw": false
   }
 ]

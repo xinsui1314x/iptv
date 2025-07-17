@@ -1,98 +1,38 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="",247 Box
+#EXTINF:-1 tvg-id="towheedtv.ir",towheedtv (720p)
+https://avr.host247.net/live/towheedtv/playlist.m3u8
+#EXTINF:-1 tvg-id="AssiratTV.ir",Assirat TV (576p)
+https://softverse.b-cdn.net/Assirat/assiratobs/playlist.m3u8
+#EXTINF:-1 tvg-id="247BoxTV.ir",247 Box TV
 https://hls.247box.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AbalfadhlTV.ir",Abalfadhl TV (720p)
+#EXTINF:-1 tvg-id="AbalfadhlTV.ir",Abalfadhl TV
 https://t.northtelecom.org/ABALFADHLTV.m3u8
-#EXTINF:-1 tvg-id="",AFN Music
-https://bozztv.com/1gbw5/tintv2/tintv2/chunklist.m3u8
-#EXTINF:-1 tvg-id="AFNTV.ir",AFN TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="AFNTV.ir",AFN TV (720p)
 https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
-#EXTINF:-1 tvg-id="",Aio Eshareh [Geo-blocked]
-https://live.aionet.ir/hls/eshareh/eshareh.m3u8
-#EXTINF:-1 tvg-id="",Aio Jahan Bin [Geo-blocked]
-https://live.aionet.ir/hls/jahanb/jahanb.m3u8
-#EXTINF:-1 tvg-id="",Aio Mes Rafsanjan [Geo-blocked]
-https://live.aionet.ir/hls/mesrafsanjan/mesrafsanjan.m3u8
-#EXTINF:-1 tvg-id="AioSport1.ir",Aio Sport 1 [Geo-blocked]
-https://live.aionet.ir/hls/aiosport/aiosport.m3u8
-#EXTINF:-1 tvg-id="AioSport2.ir",Aio Sport 2 [Geo-blocked]
-https://live.aionet.ir/hls/aiosport2/aiosport2.m3u8
-#EXTINF:-1 tvg-id="AlAlam.ir",Al Alam (360p) [Not 24/7]
+#EXTINF:-1 tvg-id="AlAlam.ir",Al Alam (360p)
 https://live2.alalam.ir/alalam.m3u8
-#EXTINF:-1 tvg-id="AlWilayah.ir",Al Wilayah (720p) [Not 24/7]
-https://alwilayah.tv/cdn/alwilayah_tv-manifest.m3u8
+#EXTINF:-1 tvg-id="AlWilayah.ir",Al Wilayah (720p)
+https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8
 #EXTINF:-1 tvg-id="AsilTV.ir",Asil TV (720p)
 https://live.asil.tv/asiltv/index.m3u8
-#EXTINF:-1 tvg-id="AssiratTV.ir",Assirat TV (700p)
-https://svs.itworkscdn.net/assiratvlive/assirat/playlist.m3u8
-#EXTINF:-1 tvg-id="AVAFamily.ir",AVA Family (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="AVAFamily.ir",AVA Family (720p)
 https://familyhls.avatv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AVASeries.ir",AVA Series (720p)
-https://avaserieshls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="BravoFarsiTV.ir",Bravo Farsi TV (360p)
-https://bravoohls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="FX1.ir",FX1 Farsi (720p)
-https://fxtvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="",Hasti TV (1080p) [Not 24/7]
-https://live.hastitv.com/hls/livetv.m3u8
-#EXTINF:-1 tvg-id="",Health Media TV (720p)
-https://6n3yowknl9ok-hls-live.5centscdn.com/HMN/271ddf829afeece44d8732757fba1a66.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="HighVisionTV.ir",High Vision
-https://streamer1.connectto.com/HIGHVISION_WEB_1205/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="HispanTV.ir",Hispan TV
 https://cdnlive.presstv.ir/live/smil:live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="HodHodFarsiTV.ir",HodHod Farsi
-https://hls.hodhod.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="iFilm2.ir",iFilm 2
-https://cdnlive.presstv.ir/ifilmlive/smil:ifilm2.smil/playlist.m3u8
+https://live.presstv.ir/hls/ifilm2.m3u8
 #EXTINF:-1 tvg-id="iFilmArabic.ir",iFilm Arabic
-https://cdnlive.presstv.ir/ifilmlive/smil:ifilmar.smil/playlist.m3u8
+https://live.presstv.ir/hls/ifilmar.m3u8
 #EXTINF:-1 tvg-id="iFilmEnglish.ir",iFilm English
-https://cdnlive.presstv.ir/ifilmlive/smil:ifilmen.smil/playlist.m3u8
+https://live.presstv.ir/hls/ifilmen.m3u8
 #EXTINF:-1 tvg-id="iFilmPersian.ir",iFilm Persian
-https://cdnlive.presstv.ir/ifilmlive/smil:ifilmfa.smil/playlist.m3u8
+https://live.presstv.ir/hls/ifilmfa.m3u8
 #EXTINF:-1 tvg-id="IranJewishTV.ir",Iran Jewish TV (720p)
 http://iran620.com:1935/live/IranJewishTv/playlist.m3u8
-#EXTINF:-1 tvg-id="IranPress.ir",Iran Press (480p) [Not 24/7]
-https://ip2stream.iranpress.com/hls/ip2.m3u8
-#EXTINF:-1 tvg-id="IRIB1.ir",IRIB1
-https://af.ayas.ir/hls2/tv1.m3u8
-#EXTINF:-1 tvg-id="IRIB1.ir",IRIB1 (720p)
-https://live.aionet.ir/hls/tv1/tv1.m3u8
-#EXTINF:-1 tvg-id="IRIB2.ir",IRIB2
-https://af.ayas.ir/hls2/tv2.m3u8
-#EXTINF:-1 tvg-id="IRIB2.ir",IRIB2 (540p)
-https://live.aionet.ir/hls/tv2/tv2.m3u8
-#EXTINF:-1 tvg-id="IRIB3.ir",IRIB3
-https://live.aionet.ir/hls/tv3/tv3.m3u8
-#EXTINF:-1 tvg-id="IRIB3.ir",IRIB3 (480p)
-https://af.ayas.ir/hls2/tv3.m3u8
-#EXTINF:-1 tvg-id="IRIB4.ir",IRIB4 (540p)
-https://live.aionet.ir/hls/tv4/tv4.m3u8
-#EXTINF:-1 tvg-id="IRIB5.ir",IRIB5 (540p)
-https://live.aionet.ir/hls/tv5/tv5.m3u8
-#EXTINF:-1 tvg-id="AmouzeshTV.ir",IRIB Amouzesh (540p)
-https://live.aionet.ir/hls/amoozesh/amoozesh.m3u8
-#EXTINF:-1 tvg-id="IRIBMostanad.ir",IRIB Mostanad (540p)
-https://live.aionet.ir/hls/mostanad/mostanad.m3u8
-#EXTINF:-1 tvg-id="NamayeshTV.ir",IRIB Namayesh (540p)
-https://live.aionet.ir/hls/namayesh/namayesh.m3u8
-#EXTINF:-1 tvg-id="Nasim.ir",IRIB Nasim (540p)
-https://live.aionet.ir/hls/nasim/nasim.m3u8
-#EXTINF:-1 tvg-id="PooyaTV.ir",IRIB Pooya & Nahal (540p)
-https://live.aionet.ir/hls/pooya/pooya.m3u8
-#EXTINF:-1 tvg-id="SalamatTV.ir",IRIB Salamat (540p)
-https://live.aionet.ir/hls/salamat/salamat.m3u8
-#EXTINF:-1 tvg-id="Tamasha.ir",IRIB Tamasha (540p)
-https://live.aionet.ir/hls/tamasha/tamasha.m3u8
-#EXTINF:-1 tvg-id="VarzeshTV.ir",IRIB Varzesh (1080p)
-https://live.aionet.ir/hls/varzesh/varzesh.m3u8
-#EXTINF:-1 tvg-id="IRINN.ir",IRINN (540p)
-https://live.aionet.ir/hls/irinn/irinn.m3u8
-#EXTINF:-1 tvg-id="TVITN.ir",ITN (720p) [Not 24/7]
-https://itnhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="MetaFilmTV.ir",Meta Film TV (1080p)
-https://metafilmhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="IranPress.ir",Iran Press (720p)
+https://live.presstv.ir/hls/presstv_5_482/index.m3u8
+#EXTINF:-1 tvg-id="TVITN.ir",ITN [Not 24/7]
+https://ca-rt.onetv.app:8443/ITN/index-0.m3u8
 #EXTINF:-1 tvg-id="MihanTV.ir",Mihan TV (720p)
 https://iptv.mihantv.com/mihantv/playlist.m3u8
 #EXTINF:-1 tvg-id="MohabatTV.ir",Mohabat TV (540p)
@@ -101,35 +41,86 @@ http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
 https://5acf9f9415a10.streamlock.net/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="NegahTV.ir",Negah TV (720p)
 https://iptv.negahtv.com/negahtv/playlist.m3u8
-#EXTINF:-1 tvg-id="OmideIranTV.ir",Omide Iran (720p) [Not 24/7]
-https://oitnhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="OXIRTV.ir",OXIR TV (720p)
 https://hls.oxir.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ParsTV.ir",Pars
-https://parshls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PayamJavanTV.ir",Payam Javan TV (720p) [Not 24/7]
-https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="PayvandTV.ir",Payvand TV (720p) [Not 24/7]
 https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8
-#EXTINF:-1 tvg-id="PBCTapeshTV.ir",PBC Tapesh TV (720p) [Not 24/7]
-https://iptv.tapesh.tv/tapesh/playlist.m3u8
-#EXTINF:-1 tvg-id="PersianFilm.ir",Persian Film (720p) [Not 24/7]
-https://pfilmhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PressTV.ir",Press TV (720p)
-https://cdnlive.presstv.ir/cdnlive/smil:cdnlive.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PressTV.ir",Press TV
+https://live.presstv.ir/hls/presstv.m3u8
 #EXTINF:-1 tvg-id="PressTVFrench.ir",Press TV French (1080p)
 https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SL1.ir",SL 1 (720p)
-https://slonehls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="SL2.ir",SL 2 (720p)
-https://sltwohls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="SNNTV.ir",SNN TV (720p) [Not 24/7]
-https://live2.snn.ir/hls/snn.m3u8
-#EXTINF:-1 tvg-id="PBCTapeshTV.ir",Tapesh Iran
-https://iptv.tapesh.tv/tapeshiran/playlist.m3u8
+https://live2.snn.ir/hls/snn2_hd720/index.m3u8
 #EXTINF:-1 tvg-id="TBNNejatTV.ir",TBN Nejat TV (720p)
 https://hls.nejat.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="VOX1.ir",VOX1 (720p) [Not 24/7]
 https://hls.vox1.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="YourTimeTV.ir",YourTime TV (720p) [Not 24/7]
 https://hls.yourtime.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="VarzeshTV.ir",Varzesh TV (480p)
+https://stream.sainaertebat.com/hls2/varzeshtest.m3u8
+#EXTINF:-1 tvg-id="WiseHumanTv.ir",WiseHumanTv (720p)
+https://avr.host247.net/live/WiseHumanTv/playlist.m3u8
+#EXTINF:-1 tvg-id="RasoulallahTv.ir",RasoulallahTv (1080p)
+https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
+#EXTINF:-1 tvg-id="CaltexTV.ir",Caltex Music (720p)
+https://video.caltexmusic.com/hls/caltextv.m3u8
+#EXTINF:-1 tvg-id="ITVPersianMusic.ir",ITV Persian Music (1080p)
+https://ca1.buximedia.com/itv/persian/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ITVLife.ir",ITV Life (1080p)
+https://ca1.buximedia.com/itv/life/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="PooyaTV.ir@SD",Pooya TV
+http://dvrfl05.bozztv.com/gin-iribpooya/index.m3u8
+#EXTINF:-1 tvg-id="SaharUrdu.ir@SD",Sahar Urdu
+https://live20.bozztv.com/dvrfl05/gin-saharurdu/index.m3u8
+#EXTINF:-1 tvg-id="VarzeshTV.ir@SD",Varzesh TV
+http://trn03.bozztv.com/gin-iribvarzesh/index.m3u8
+#EXTINF:-1 tvg-id="AmouzeshTV.ir@SD",Amouzesh TV
+http://dvrfl05.bozztv.com/gin-iribamoozesh/index.m3u8
+#EXTINF:-1 tvg-id="AyenehTV.ir@SD",Ayeneh TV
+https://live20.bozztv.com/dvrfl05/gin-ayeneh/index.m3u8
+#EXTINF:-1 tvg-id="IRINN.ir@SD",IRINN
+https://live20.bozztv.com/dvrfl05/gin-irinn/index.m3u8
+#EXTINF:-1 tvg-id="IRIBMostanad.ir@SD",IRIB Mostanad
+https://live20.bozztv.com/dvrfl05/gin-iribmostanad/index.m3u8
+#EXTINF:-1 tvg-id="iFilmEnglish.ir@SD",iFilm English
+http://dvrfl05.bozztv.com/gin-ifilmeng/index.m3u8
+#EXTINF:-1 tvg-id="SalamatTV.ir@SD",Salamat TV
+https://live20.bozztv.com/dvrfl05/gin-iribsalamat/index.m3u8
+#EXTINF:-1 tvg-id="TehranTV.ir@SD",Tehran TV
+https://live20.bozztv.com/dvrfl05/gin-iribnasim/index.m3u8
+#EXTINF:-1 tvg-id="Nasim.ir@SD",Nasim
+https://live20.bozztv.com/dvrfl05/gin-irib5/index.m3u8
+#EXTINF:-1 tvg-id="IRIB4.ir@SD",IRIB 4
+https://live20.bozztv.com/dvrfl05/gin-irib4/index.m3u8
+#EXTINF:-1 tvg-id="IRIB3.ir@SD",IRIB 3
+https://live20.bozztv.com/dvrfl05/gin-irib3/index.m3u8
+#EXTINF:-1 tvg-id="IRIB2.ir@SD",IRIB 2
+https://live20.bozztv.com/dvrfl05/gin-irib2/index.m3u8
+#EXTINF:-1 tvg-id="IRIB1.ir@SD",IRIB 1
+https://live20.bozztv.com/dvrfl05/gin-irib1/index.m3u8
+#EXTINF:-1 tvg-id="NegahTV.ir@SD",Negah TV
+https://live20.bozztv.com/gin-36bay3/gp-negahtv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="SaharAfghanistan.ir@SD",Sahar Afghanistan
+https://live20.bozztv.com/gin-36bay3/gin-saharafgh/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="HodHodFarsiTV.ir@SD",HodHod Farsi TV
+https://live20.bozztv.com/gin-trn09/gp-hodhodtv/index.m3u8
+#EXTINF:-1 tvg-id="PressTV.ir" http-referrer="https://odysee.com/",Press TV (720p)
+#EXTVLCOPT:http-referrer=https://odysee.com/
+https://cloud.odysee.live/content/26bcbcc342a5b143578f27dbfaf000201f06e417/master.m3u8
+#EXTINF:-1 tvg-id="PressTV.ir",Press TV (720p)
+https://rumble.com/live-hls/6s62fv/playlist.m3u8
+#EXTINF:-1 tvg-id="",Digi Movie [Not 24/7]
+https://fastdehost.com/live/digimovie.m3u8
+#EXTINF:-1 tvg-id="",King Movie [Not 24/7]
+https://fastdehost.com/live/kingmovie.m3u8
+#EXTINF:-1 tvg-id="",Serial Baran1 [Not 24/7]
+https://fastdehost.com/live/serialbaran1.m3u8
+#EXTINF:-1 tvg-id="",Serial Baran2 [Not 24/7]
+https://server3.fastdehost.com/live/serialbaran2.m3u8
+#EXTINF:-1 tvg-id="",Serial Baran3 [Not 24/7]
+https://server3.fastdehost.com/live/serialbaran3.m3u8
+#EXTINF:-1 tvg-id="",Serial Baran4 [Not 24/7]
+https://server3.fastdehost.com/live/serialbaran4.m3u8
+#EXTINF:-1 tvg-id="",Serial Baran5 [Not 24/7]
+https://server4.fastdehost.com/live/serialbaran5.m3u8

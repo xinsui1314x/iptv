@@ -1,11 +1,11 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
-  - name: 🔍 Looking for a channel
-    url: https://github.com/orgs/iptv-org/discussions/categories/channel-search
-    about: Need help finding a link to a channel stream
-  - name: 💡 Feature request
+  - name: 💡 Ideas
     url: https://github.com/orgs/iptv-org/discussions/categories/ideas
-    about: For any ideas or feature requests
-  - name: ❓ Ask a question
+    about: Share ideas for new features
+  - name: 🙌 Show and tell
+    url: https://github.com/orgs/iptv-org/discussions/categories/show-and-tell
+    about: Show off something you've made
+  - name: ❓ Q&A
     url: https://github.com/orgs/iptv-org/discussions/categories/q-a
-    about: Ask questions about this project
+    about: Ask the community for help

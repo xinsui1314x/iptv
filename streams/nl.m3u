@@ -1,14 +1,12 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="1AlmereTV.nl",1Almere TV (720p)
 https://d3472rjicrodic.cloudfront.net/nlpo/clr-nlpo/709d5260/index.m3u8
-#EXTINF:-1 tvg-id="1TwenteTV.nl",1Twente TV (1080p)
-https://ms2.mx-cd.net/dtv-10/198-989148/1Twente_TV.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="1TwenteTV.nl@SD",1Twente TV (1080p)
+https://ms7.mx-cd.net/dtv-11/198-989148/1Twente_TV.smil/chunklist_w954512639_b4292608_slNLD.m3u8
 #EXTINF:-1 tvg-id="A1TV.nl",A1 TV (1080p) [Not 24/7]
 https://stream.a1mediagroep.nl/hls/a1tv.m3u8
 #EXTINF:-1 tvg-id="A1TV.nl",A1 TV (1080p) [Not 24/7]
 https://www.a1mediagroep.nl/hls/a1tv.m3u8
-#EXTINF:-1 tvg-id="AAVISIE.nl",AAVISIE (720p)
-https://d1wgur45ikj8gz.cloudfront.net/nlpo/clr-nlpo/aavisietv/index.m3u8
 #EXTINF:-1 tvg-id="AltenaTV.nl",Altena TV (720p)
 https://dnx1f4sl30ba2.cloudfront.net/nlpo/clr-nlpo/altenatv/index.m3u8
 #EXTINF:-1 tvg-id="AssenTV.nl",Assen TV (720p)
@@ -21,10 +19,8 @@ https://tv.beatfm.nl/live.m3u8
 https://bnr-cache-cdp.triple-it.nl/studio/index.m3u8
 #EXTINF:-1 tvg-id="BR6TV.nl",BR6 TV (720p)
 https://58c04fb1d143f.streamlock.net/slob/slob/playlist.m3u8
-#EXTINF:-1 tvg-id="BredaNuTV.nl",BredaNu TV (720p)
-https://rtmp.bredanu.nl/live/tv.m3u8
-#EXTINF:-1 tvg-id="BVN.nl",BVN (576p)
-http://62.2.85.68:39981/play/a00t
+#EXTINF:-1 tvg-id="BredaNuTV.nl@SD",BredaNu TV (1080p)
+https://01.tv.streaming.bredanu.nl/hls/stream.m3u8
 #EXTINF:-1 tvg-id="DeepHouseDistrict.nl",DeepHouse District (1080p)
 https://eu-nl-012.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
 #EXTINF:-1 tvg-id="DenHaagTV.nl",Den Haag TV (1080p) [Not 24/7]
@@ -45,16 +41,12 @@ https://streamingserver02.omroepnuenen.nl/spakenburg/spakenburglive_720p/playlis
 https://58c04fb1d143f.streamlock.net/feel_good_radio_1/feel_good_radio_1/playlist.m3u8
 #EXTINF:-1 tvg-id="GigantFM.nl",Gigant FM (720p)
 https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8
-#EXTINF:-1 tvg-id="GORTV.nl",GO-RTV (720p)
-http://593aed234297b.streamlock.net:1935/gotvsjoerd/gotvsjoerd/playlist.m3u8
-#EXTINF:-1 tvg-id="GOTV.nl",GO-TV (720p)
-https://593aed234297b.streamlock.net/gotvsjoerd/gotvsjoerd/playlist.m3u8
-#EXTINF:-1 tvg-id="Groningen1.nl",Groningen1 (1080p) [Not 24/7]
-http://59132e529e3d1.streamlock.net/Groningen1/Groningen1/playlist.m3u8
 #EXTINF:-1 tvg-id="Haarlem105TV.nl",Haarlem105 RTV (720p)
 https://d2qm50imcbcfqx.cloudfront.net/nlpo/clr-nlpo/haarlem105/index.m3u8
 #EXTINF:-1 tvg-id="HTRTV.nl",HTR TV (720p)
 https://ms7.mx-cd.net/tv/286-3043214/HTR_Media_TV.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="HypeVisualRadio.nl",Hype Visual Radio (1080p)
+https://streammix.alsolnet.com/hyperadio/live/playlist.m3u8
 #EXTINF:-1 tvg-id="IdeaalTV.nl",Ideaal TV (480p) [Not 24/7]
 https://ms2.mx-cd.net/dtv-09/236-2051366/Ideaal_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="JinTV.nl",Jin TV
@@ -75,8 +67,8 @@ https://ms7.mx-cd.net/tv/238-2061506/Omroep_LEO_TV.smil/playlist.m3u8
 https://ms7.mx-cd.net/dtv-09/246-2090022/Linq_Media_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LOETV.nl",LOE TV (720p)
 https://58c04fb1d143f.streamlock.net/loemedia/loemedia/playlist.m3u8
-#EXTINF:-1 tvg-id="LONTV.nl",LON TV (Lokale Omroep Nuenen) (720p)
-https://streamingserver02.omroepnuenen.nl/lon/lonweb_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="LONTV.nl@SD",LON TV (720p)
+https://streamingserver02.omroepnuenen.nl/lon/lonweb/chunklist_w1463772894.m3u8
 #EXTINF:-1 tvg-id="LokaleOmroepZeewolde.nl",LOZ (Lokale Omroep Zeewolde) (720p)
 https://5e2b3e3114872.streamlock.net:1443/lozlive/smil:lozlive/playlist.m3u8
 #EXTINF:-1 tvg-id="MagicPowerRadio.nl",Magic PowerRadio (288p) [Not 24/7]
@@ -86,21 +78,15 @@ https://593aed234297b.streamlock.net/meervandaag/meervandaag/playlist.m3u8
 #EXTINF:-1 tvg-id="MerweTV.nl",Merwe TV (720p)
 https://d2ycaxub5x98iw.cloudfront.net/nlpo/clr-nlpo/merwetv/index.m3u8
 #EXTINF:-1 tvg-id="ML5TV.nl",ML5 TV (480p)
-https://ms2.mx-cd.net/dtv-02/204-1147034/3ML_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ML5TV.nl",ML5 TV (480p)
 https://ms7.mx-cd.net/dtv-02/204-1147034/3ML_TV.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ML5TV.nl",ML5 TV (480p) [Not 24/7]
+https://ms2.mx-cd.net/dtv-02/204-1147034/3ML_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NH.nl",NH Niews (1080p)
 https://takeoff.jetstre.am/?account=nhnieuws&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live
-#EXTINF:-1 tvg-id="NicktoonsScandinavia.nl",Nicktoons Scandinavia
-http://89.254.128.5:22280/nicktoons/video.m3u8
 #EXTINF:-1 tvg-id="NOOSTV.nl",NOOS TV (720p)
 https://ms2.mx-cd.net/tv/276-2860564/Omroep_NOOS.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="OmroepAlmere.nl",Omroep Almere (1080p)
 https://wowza2.videostreamingwowza.com/OAlmerelive/OAlmerelive/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepBergenDal.nl",Omroep Berg en Dal (1080p)
-https://rtvbergendal.nl:4000/live/rtvbergendallive.m3u8
-#EXTINF:-1 tvg-id="OmroepBest.nl",Omroep Best (720p)
-https://streamingserver02.omroepnuenen.nl/best/bestweb_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="OmroepBrabant.nl",Omroep Brabant (1080p)
 https://d3slqp9xhts6qb.cloudfront.net/live/omroepbrabant/tv/index.m3u8
 #EXTINF:-1 tvg-id="OmroepBrabantRadio.nl",Omroep Brabant Radio (1080p)
@@ -111,12 +97,8 @@ https://ms2.mx-cd.net/tv/208-1258878/Omroep_Centraal_GB.smil/playlist.m3u8
 https://de68fck4398ez.cloudfront.net/nlpo/clr-nlpo/omroepdommelland/index.m3u8
 #EXTINF:-1 tvg-id="OmroepFlevoland.nl",Omroep Flevoland (720p) [Not 24/7]
 https://d5ms27yy6exnf.cloudfront.net/live/omroepflevoland/tv/index.m3u8
-#EXTINF:-1 tvg-id="OmroepGelderland.nl",Omroep Gelderland (720p) [Not 24/7]
-https://web.omroepgelderland.nl/live/livetv.m3u8
 #EXTINF:-1 tvg-id="OmroepHoekscheWaard.nl",Omroep Hoeksche Waard (480p)
 https://ms2.mx-cd.net/tv/272-2641704/Hoeksche_Waard_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepHorstaandeMaas.nl",Omroep Horst aan de Maas (720p)
-https://ms2.mx-cd.net/dtv-10/157-1217118/Omroep_Horst_aan_de_Maas_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="OmroepHulst.nl",Omroep Hulst TV (720p) [Not 24/7]
 https://ms7.mx-cd.net/tv/280-2963002/Omroep_Hulst_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="OmroepLandvanCuijk.nl",Omroep Land van Cuijk (720p)
@@ -127,14 +109,10 @@ https://58c04fb1d143f.streamlock.net/omroeplingewaard_1/omroeplingewaard_1/playl
 https://ms2.mx-cd.net/dtv-09/186-793530/Omroep_Meierij_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="OmroepOnsWestBrabant.nl",Omroep Ons West Brabant (480p)
 https://ms2.mx-cd.net/tv/177-710139/Ons_West_Brabant_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepPM.nl",Omroep P&M (1080p) [Not 24/7]
-https://ms7.mx-cd.net/dtv-10/153-840564/Omroep_Peel_en_Maas_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepPM.nl",Omroep P&M (480p)
-https://ms2.mx-cd.net/dtv-09/137-567119/Omroep_PIM.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVGelderland.nl",Omroep Gelderland (1080p)
+https://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/index.m3u8
 #EXTINF:-1 tvg-id="OmroepPeelrand.nl",Omroep Peelrand (720p)
 https://ms7.mx-cd.net/dtv-11/208-1258878/Omroep_Peelrand_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepRSH.nl",Omroep RSH (720p)
-https://5e6ab219de8f5.streamlock.net/omroeprsh/omroeprsh/playlist.m3u8
 #EXTINF:-1 tvg-id="OmroepSudwest.nl",Omroep Súdwest (720p)
 https://d2ecwd3cgy6wo0.cloudfront.net/nlpo/clr-nlpo/omroepsudwest/index.m3u8
 #EXTINF:-1 tvg-id="OmroepTilburg.nl",Omroep Tilburg (480p) [Not 24/7]
@@ -145,8 +123,6 @@ https://ms7.mx-cd.net/tv/184-782326/Omroep_Tilburg_TV.smil/playlist.m3u8
 https://d2pqcu7r58rgg1.cloudfront.net/nlpo/clr-nlpo/omroepvenlo/index.m3u8
 #EXTINF:-1 tvg-id="OmroepVenray.nl",Omroep Venray (720p)
 https://d3j015sg8r68y.cloudfront.net/nlpo/clr-nlpo/omroepvenray/index.m3u8
-#EXTINF:-1 tvg-id="OmroepVlaardingen.nl",Omroep Vlaardingen (1080p)
-https://58c04fb1d143f.streamlock.net/omroepvlaardingenlive/omroepvlaardingenlive/playlist.m3u8
 #EXTINF:-1 tvg-id="TVWest.nl",Omroep West (1080p) [Not 24/7]
 https://d1axml5ozykh3g.cloudfront.net/live/omroepwest/tv/index.m3u8
 #EXTINF:-1 tvg-id="OmroepZeeland.nl",Omroep Zeeland (1080p)
@@ -165,7 +141,7 @@ https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC1&output=playlist.m3u8&
 https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC2&output=playlist.m3u8&service=wowza&type=live
 #EXTINF:-1 tvg-id="PodiumTV3.nl",Podium.TV 3 (1080p) [Not 24/7]
 https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC3&output=playlist.m3u8&service=wowza&type=live
-#EXTINF:-1 tvg-id="Qmusic.nl",Qmusic (720p)
+#EXTINF:-1 tvg-id="Qmusic.nl",Qmusic (Netherlands) (720p)
 https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL.m3u8
 #EXTINF:-1 tvg-id="Radio10.nl",Radio 10 (720p)
 https://radio10.prd1.talpatvcdn.nl/2b725bc7c93f477eaf0e43955ea8a6c1/index.m3u8
@@ -189,35 +165,23 @@ https://stream.radionl.tv/radionltv/radionltv/playlist.m3u8
 https://server-67.stream-server.nl:1936/RadioToppers/RadioToppers/playlist.m3u8
 #EXTINF:-1 tvg-id="Rararadio.nl",Rararadio (720p)
 https://58c04fb1d143f.streamlock.net/rararadio/rararadio/playlist.m3u8
-#EXTINF:-1 tvg-id="Regio8TV.nl",Regio8 TV (1080p)
-https://ms7.mx-cd.net/dtv-10/91-475821/Regio8TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Regio90TV.nl",Regio90 TV (720p)
 https://ms2.mx-cd.net/dtv-02/260-2403096/Regio90TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RegioTVDeBilt.nl",Regio TV De Bilt (720p)
 https://d3ud9qm9b5yby9.cloudfront.net/nlpo/clr-nlpo/76ecd122/index.m3u8
 #EXTINF:-1 tvg-id="RegioTVNieuws.nl",Regio TV Nieuws (1080p) [Not 24/7]
 http://highvolume04.streampartner.nl/regiomedia/regiomedia/playlist.m3u8
-#EXTINF:-1 tvg-id="RN7.nl",RN7 TV (1080p)
+#EXTINF:-1 tvg-id="RN7.nl" http-referrer="https://player.rn7.nl/",RN7 TV (1080p)
 #EXTVLCOPT:http-referrer=https://player.rn7.nl/
 https://streaming.rn7.nl/rn7live_abr/visualradio/playlist.m3u8
-#EXTINF:-1 tvg-id="ROSTVKrant.nl",ROS TV-Krant (1080p)
-https://server-67.stream-server.nl:1936/RosTVkrant/RosTVkrant/playlist.m3u8
 #EXTINF:-1 tvg-id="",Rotterdam Podium TV (480p)
 http://ms10.mx-cd.net/tv/141-573565/Podium_Rotterdam.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RPLWoerden.nl",RPL TV Woerden (720p)
 https://d1893oi5c6e5u0.cloudfront.net/nlpo/clr-nlpo/rpltvwoerden/index.m3u8
 #EXTINF:-1 tvg-id="RTV1.nl",RTV 1 (720p)
 https://dy7fxpkq4ggk8.cloudfront.net/nlpo/clr-nlpo/rtv1/index.m3u8
-#EXTINF:-1 tvg-id="RTV527.nl",RTV 527 (1080p)
-https://wowza3.videostreamingwowza.com/broadcastmediasolutions/broadcastmediasolutions/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVAmstelveen.nl",RTV Amstelveen (720p) [Not 24/7]
-https://live.rtva.nl/live/zender.m3u8
 #EXTINF:-1 tvg-id="RTVArnhemTV.nl",RTV Arnhem (480p) [Not 24/7]
 https://ms2.mx-cd.net/tv/163-669433/RTV_Arnhem.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVDordrecht.nl",RTV Dordrecht (480p)
-https://ms2.mx-cd.net/dtv-02/107-475823/RTV_Dordrecht.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVDordrecht.nl",RTV Dordrecht (480p)
-https://ms7.mx-cd.net/dtv-02/107-475823/RTV_Dordrecht.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVDrenthe.nl",RTV Drenthe (1080p)
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8
 #EXTINF:-1 tvg-id="RTVFocusTV.nl",RTV Focus TV (720p)
@@ -256,8 +220,6 @@ https://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv/index.m3u8
 http://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv-extra/index.m3u8
 #EXTINF:-1 tvg-id="RTVRijnstreekTV.nl",RTV Rijnstreek TV (720p) [Not 24/7]
 https://ms7.mx-cd.net/tv/290-3222276/RTV_Rijnstreek.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVSlingeland.nl",RTV Slingeland (1080p) [Not 24/7]
-https://ms7.mx-cd.net/dtv-10/105-475831/RTV_Slingeland.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVSLOS.nl",RTV SLOS (720p)
 https://d3b6teev8t7bb2.cloudfront.net/nlpo/clr-nlpo/rtvslos/index.m3u8
 #EXTINF:-1 tvg-id="TVStichtseVecht.nl",RTV Stichtse Vest (720p)
@@ -287,7 +249,7 @@ https://server-67.stream-server.nl:1936/Samen1TV/Samen1TV/playlist.m3u8
 #EXTINF:-1 tvg-id="SirisTV.nl",Siris TV (720p)
 https://cdn.streammy.events/siris/playout/playlist.m3u8
 #EXTINF:-1 tvg-id="SleutelstadTV.nl",Sleutelstad TV (720p)
-https://58c04fb1d143f.streamlock.net/sleutelstad/sleutelstad/playlist.m3u8
+https://samson.streamerr.co:8081/sleutelstad/index.m3u8
 #EXTINF:-1 tvg-id="SlotstadTV.nl",Slotstad TV (720p)
 https://d3eq9mufmyqgh4.cloudfront.net/nlpo/clr-nlpo/slotstadtv/index.m3u8
 #EXTINF:-1 tvg-id="SOL2.nl",SOL 2 (1080p)
@@ -304,48 +266,42 @@ https://videostreams.streekstadcentraal.nl/hls/streekstad_alkmaar/streekstad_alk
 https://d591ovpa48r6h.cloudfront.net/nlpo/clr-nlpo/studio040tv/index.m3u8
 #EXTINF:-1 tvg-id="StudioRheden.nl",Studio Rheden (1080p)
 https://stream.studiorhedenlive.nl/hlstv/stream.m3u8
-#EXTINF:-1 tvg-id="TommyTeleshopping.nl",Tommy Teleshopping (480p)
-https://ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVEllef.nl",TV Ellef (1080p)
 http://cdn22.streampartner.nl/tvellef/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVEllef.nl",TV Ellef (540p) [Not 24/7]
 https://61ae39677a1ab.streamlock.net/tvellef/tvellef/playlist.m3u8
-#EXTINF:-1 tvg-id="TVValkenburg.nl",TV Valkenburg (720p) [Not 24/7]
-https://livestream.tvvalkenburg.tv/hls/tv-valkenburg/tv-valkenburg.m3u8
-#EXTINF:-1 tvg-id="TweedeKamerActualiteitenkanaal.nl",Tweede Kamer: Actualiteitenkanaal (720p) [Not 24/7]
-https://livestream.tweedekamer.nl/live/evenementenkanaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerAlettaJacobszaal.nl",Tweede Kamer: Aletta Jacobszaal (1080p) [Not 24/7]
-https://livestreaming.b67.tweedekamer.nl/live/alettajacobszaal/2000/prog_index.m3u8
+#EXTINF:-1 tvg-id="TweedeKamerActualiteitenkanaal.nl@SD",Tweede Kamer: Actualiteitenkanaal (1080p) [Not 24/7]
+https://livestreaming.b67buv2.tweedekamer.nl/live/evenementenkanaal/index.m3u8?hd=1&subtitles=live&keyframes=1
+#EXTINF:-1 tvg-id="TweedeKamerAlettaJacobszaal.nl@SD",Tweede Kamer: Aletta Jacobszaal (1080p) [Not 24/7]
+https://livestreaming.b67buv2.tweedekamer.nl/live/alettajacobszaal/index.m3u8?hd=1&subtitles=live&keyframes=1
 #EXTINF:-1 tvg-id="TweedeKamerAlettaJacobszaal.nl",Tweede Kamer: Aletta Jacobszaal (720p) [Not 24/7]
 https://livestream.tweedekamer.nl/live/aletta_jacobszaal/index.m3u8?hd=1&subtitles=1
-#EXTINF:-1 tvg-id="TweedeKamerGroenvanPrinstererzaal.nl",Tweede Kamer: Groen van Prinstererzaal (720p) [Not 24/7]
-https://livestream.tweedekamer.nl/live/groen_van_prinstererzaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerKlompezaal.nl",Tweede Kamer: Klompézaal (1080p) [Not 24/7]
-https://livestreaming.b67.tweedekamer.nl/live/klompezaal/300/prog_index.m3u8
-#EXTINF:-1 tvg-id="TweedeKamerMaxvanderStoelzaal.nl",Tweede Kamer: Max van der Stoelzaal (1080p) [Not 24/7]
-https://livestreaming.b67.tweedekamer.nl/live/maxvanderstoelzaal/567/prog_index.m3u8
-#EXTINF:-1 tvg-id="TweedeKamerPlenairezaal.nl",Tweede Kamer: Plenaire zaal (1080p) [Not 24/7]
-https://livestreaming.b67bu.tweedekamer.nl/live/plenairezaal/4000/prog_index.m3u8
+#EXTINF:-1 tvg-id="TweedeKamerGroenvanPrinstererzaal.nl@SD",Tweede Kamer: Groen van Prinstererzaal (1080p) [Not 24/7]
+https://livestreaming.b67buv2.tweedekamer.nl/live/groenvanprinstererzaal/index.m3u8?hd=1&subtitles=live&keyframes=1
+#EXTINF:-1 tvg-id="TweedeKamerKlompezaal.nl@SD",Tweede Kamer: Klompezaal (1080p) [Not 24/7]
+https://livestreaming.b67buv2.tweedekamer.nl/live/klompezaal/index.m3u8?hd=1&subtitles=live&keyframes=1
+#EXTINF:-1 tvg-id="TweedeKamerMaxvanderStoelzaal.nl@SD",Tweede Kamer: Max van der Stoelzaal (1080p) [Not 24/7]
+https://livestreaming.b67buv2.tweedekamer.nl/live/maxvanderstoelzaal/index.m3u8?hd=1&subtitles=live&keyframes=1
+#EXTINF:-1 tvg-id="TweedeKamerPlenairezaal.nl@SD",Tweede Kamer: Plenaire zaal (1080p) [Not 24/7]
+https://livestreaming.b67buv2.tweedekamer.nl/live/plenairezaal/index.m3u8?hd=1&subtitles=live&keyframes=1
 #EXTINF:-1 tvg-id="TweedeKamerPlenairezaal.nl",Tweede Kamer: Plenaire zaal (720p) [Not 24/7]
 https://livestream.tweedekamer.nl/live/plenaire_zaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerSuzeGroenewegzaal.nl",Tweede Kamer: Suze Groenewegzaal (720p) [Not 24/7]
-https://livestream.tweedekamer.nl/live/suze_groenewegzaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerThorbeckezaal.nl",Tweede Kamer: Thorbeckezaal (1080p) [Not 24/7]
-https://livestreaming.b67.tweedekamer.nl/live/thorbeckezaal/571/prog_index.m3u8
+#EXTINF:-1 tvg-id="TweedeKamerSuzeGroenewegzaal.nl@SD",Tweede Kamer: Suze Groenewegzaal (1080p) [Not 24/7]
+https://livestreaming.b67buv2.tweedekamer.nl/live/suzegroenewegzaal/index.m3u8?hd=1&subtitles=live&keyframes=1
+#EXTINF:-1 tvg-id="TweedeKamerThorbeckezaal.nl@SD",Tweede Kamer: Thorbeckezaal (1080p) [Not 24/7]
+https://livestreaming.b67buv2.tweedekamer.nl/live/thorbeckezaal/index.m3u8?hd=1&subtitles=live&keyframes=1
 #EXTINF:-1 tvg-id="TweedeKamerThorbeckezaal.nl",Tweede Kamer: Thorbeckezaal (720p) [Not 24/7]
 https://livestream.tweedekamer.nl/live/thorbeckezaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live
 #EXTINF:-1 tvg-id="TweedeKamerTilanuskamer.nl",Tweede Kamer: Tilanuskamer (1080p) [Not 24/7]
 https://livestream.tweedekamer.nl/live/tilanuskamer/73/prog_index.m3u8
 #EXTINF:-1 tvg-id="TweedeKamerTilanuskamer.nl",Tweede Kamer: Tilanuskamer (720p) [Not 24/7]
 https://livestream.tweedekamer.nl/live/tilanuskamer/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerTroelstrazaal.nl",Tweede Kamer: Troelstrazaal (1080p) [Not 24/7]
-https://livestreaming.b67.tweedekamer.nl/live/troelstrazaal/567/prog_index.m3u8
-#EXTINF:-1 tvg-id="TweedeKamerVondelingkamer.nl",Tweede Kamer: Vondelingkamer (1080p) [Not 24/7]
-https://livestream.tweedekamer.nl/live/vondelingkamer/300/prog_index.m3u8
-#EXTINF:-1 tvg-id="TweedeKamerWttewaallvanStoetwegenzaal.nl",Tweede Kamer: Wttewaall van Stoetwegenzaal (720p) [Not 24/7]
-https://livestream.tweedekamer.nl/live/wttewaall_van_stoetwegenzaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live
-#EXTINF:-1 tvg-id="TweedeKamerEnquetezaal.nl",Tweede Kamer:Enquêtezaal (720p) [Not 24/7]
-https://livestream.tweedekamer.nl/live/enquetezaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live
+#EXTINF:-1 tvg-id="TweedeKamerTroelstrazaal.nl@SD",Tweede Kamer: Troelstrazaal (1080p) [Not 24/7]
+https://livestreaming.b67buv2.tweedekamer.nl/live/troelstrazaal/index.m3u8?hd=1&subtitles=live&keyframes=1
+#EXTINF:-1 tvg-id="TweedeKamerWttewaallvanStoetwegenzaal.nl@SD",Tweede Kamer: Wttewaall van Stoetwegenzaal (1080p) [Not 24/7]
+https://livestreaming.b67buv2.tweedekamer.nl/live/wttewaallvanstoetwegenzaal/index.m3u8?hd=1&subtitles=live&keyframes=1
+#EXTINF:-1 tvg-id="TweedeKamerEnquetezaal.nl@SD",Tweede Kamer: Enquetezaal (1080p) [Not 24/7]
+https://livestreaming.b67buv2.tweedekamer.nl/live/enquetezaal/index.m3u8?hd=1&subtitles=live&keyframes=1
 #EXTINF:-1 tvg-id="TynaarloLokaalTV.nl",Tynaarlo Lokaal TV (1080p)
 https://wowza2.videostreamingwowza.com/eeldevrieszuidlaren/eeldevrieszuidlaren/playlist.m3u8
 #EXTINF:-1 tvg-id="UStad.nl",UStad (1080p)
@@ -354,8 +310,6 @@ http://media.rtvutrecht.nl/live/rtvutrecht/ustad/index.m3u8
 https://d18rwjdhpr8dcw.cloudfront.net/live/rtvutrecht/ustad/index.m3u8
 #EXTINF:-1 tvg-id="VechtdalTV.nl",Vechtdal TV (480p)
 https://ms2.mx-cd.net/tv/81-334271/VechtdalTV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="VOSTV.nl",VOS TV (720p)
-https://d1ivuiwceej7mo.cloudfront.net/nlpo/clr-nlpo/vostv/index.m3u8
 #EXTINF:-1 tvg-id="WEEFFTV.nl",WEEFF TV (1080p)
 https://takeoff.jetstre.am/?account=weeff&file=weeffradio&output=playlist.m3u8&protocol=https&service=wowza&type=live
 #EXTINF:-1 tvg-id="WeertFMTV.nl",WeertFM TV (720p)
@@ -380,5 +334,5 @@ http://190.2.148.141:8080/bar7657/index.m3u8
 https://zfmzoetermeer.nl/live/master.m3u8
 #EXTINF:-1 tvg-id="ZO34.nl",ZO!34 (720p)
 https://video.uitzending.tv:19360/zo34/zo34.m3u8
-#EXTINF:-1 tvg-id="ZuidWestTV.nl",ZuidWest TV (480p)
-https://live.zuidwesttv.nl/live/zwtv.m3u8
+#EXTINF:-1 tvg-id="BVN.nl@SD",BVN
+http://trn03.bozztv.com/gin-bvntv/index.m3u8

@@ -1,34 +1,35 @@
 import { Dictionary } from '@freearhey/core'
 import { Issue } from '../models'
+import { IssueData } from './issueData'
 
 const FIELDS = new Dictionary({
-  'Channel ID': 'channel_id',
-  'Channel ID (required)': 'channel_id',
-  'Stream URL': 'stream_url',
-  'Stream URL (optional)': 'stream_url',
-  'Stream URL (required)': 'stream_url',
-  'Broken Link': 'stream_url',
+  'Stream ID': 'streamId',
+  'Channel ID': 'channelId',
+  'Feed ID': 'feedId',
+  'Stream URL': 'streamUrl',
+  'New Stream URL': 'newStreamUrl',
   Label: 'label',
   Quality: 'quality',
-  Timeshift: 'timeshift',
-  'Timeshift (optional)': 'timeshift',
-  'Channel Name': 'channel_name',
-  'HTTP User-Agent': 'user_agent',
-  'HTTP Referrer': 'http_referrer',
+  'Channel Name': 'channelName',
+  'HTTP User-Agent': 'httpUserAgent',
+  'HTTP User Agent': 'httpUserAgent',
+  'HTTP Referrer': 'httpReferrer',
   'What happened to the stream?': 'reason',
   Reason: 'reason',
   Notes: 'notes',
-  'Notes (optional)': 'notes'
+  Directives: 'directives'
 })
 
 export class IssueParser {
   parse(issue: { number: number; body: string; labels: { name: string }[] }): Issue {
-    const fields = issue.body.split('###')
+    const fields = typeof issue.body === 'string' ? issue.body.split('###') : []
 
     const data = new Dictionary()
     fields.forEach((field: string) => {
-      let [_label, , _value] = field.split(/\r?\n/)
-      _label = _label ? _label.trim() : ''
+      const parsed = typeof field === 'string' ? field.split(/\r?\n/).filter(Boolean) : []
+      let _label = parsed.shift()
+      _label = _label ? _label.replace(/ \(optional\)| \(required\)/, '').trim() : ''
+      let _value = parsed.join('\r\n')
       _value = _value ? _value.trim() : ''
 
       if (!_label || !_value) return data
@@ -43,6 +44,6 @@ export class IssueParser {
 
     const labels = issue.labels.map(label => label.name)
 
-    return new Issue({ number: issue.number, labels, data })
+    return new Issue({ number: issue.number, labels, data: new IssueData(data) })
   }
 }

@@ -1,14 +1,18 @@
-type CategoryProps = {
-  id: string
-  name: string
-}
+import type { CategoryData, CategorySerializedData } from '../types/category'
 
 export class Category {
   id: string
   name: string
 
-  constructor({ id, name }: CategoryProps) {
-    this.id = id
-    this.name = name
+  constructor(data: CategoryData) {
+    this.id = data.id
+    this.name = data.name
+  }
+
+  serialize(): CategorySerializedData {
+    return {
+      id: this.id,
+      name: this.name
+    }
   }
 }

@@ -1,26 +1,32 @@
 import { execSync } from 'child_process'
+import os from 'os'
 
-it('can create report', () => {
-  const stdout = execSync(
-    'DATA_DIR=tests/__data__/input/data STREAMS_DIR=tests/__data__/input/streams_report npm run report:create',
-    {
-      encoding: 'utf8'
-    }
-  )
+let ENV_VAR = 'DATA_DIR=tests/__data__/input/data STREAMS_DIR=tests/__data__/input/report_create'
+if (os.platform() === 'win32') {
+  ENV_VAR =
+    'SET "DATA_DIR=tests/__data__/input/data" && SET "STREAMS_DIR=tests/__data__/input/report_create" &&'
+}
 
-  expect(
-    stdout.includes(`
-┌─────────┬─────────────┬─────────────────┬─────────────────────┬────────────────┐
-│ (index) │ issueNumber │      type       │      channelId      │     status     │
-├─────────┼─────────────┼─────────────────┼─────────────────────┼────────────────┤
-│    0    │    14110    │ 'streams:edit'  │ 'BBCAmericaEast.us' │ 'invalid_link' │
-│    1    │    14120    │ 'streams:edit'  │      'boo.us'       │  'invalid_id'  │
-│    2    │    14140    │ 'broken stream' │      undefined      │ 'invalid_link' │
-│    3    │    14175    │  'streams:add'  │      'TFX.fr'       │  'invalid_id'  │
-│    4    │    14176    │  'streams:add'  │  'ManoramaNews.in'  │  'duplicate'   │
-│    5    │    14177    │  'streams:add'  │      'TUTV.us'      │  'fullfilled'  │
-│    6    │    14178    │  'streams:add'  │      'TV3.my'       │   'blocked'    │
-│    7    │    14179    │  'streams:add'  │  'ManoramaNews.in'  │   'pending'    │
-└─────────┴─────────────┴─────────────────┴─────────────────────┴────────────────┘`)
-  ).toBe(true)
+describe('report:create', () => {
+  it('can create report', () => {
+    const cmd = `${ENV_VAR} npm run report:create`
+    const stdout = execSync(cmd, { encoding: 'utf8' })
+    if (process.env.DEBUG === 'true') console.log(cmd, stdout)
+
+    expect(
+      stdout.includes(`
+┌─────────┬─────────────┬──────────────────┬─────────────────────────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────┬───────────────┐
+│ (index) │ issueNumber │ type             │ streamId                    │ streamUrl                                                                                                 │ status        │
+├─────────┼─────────────┼──────────────────┼─────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────────┤
+│ 0       │ 14120       │ 'streams:edit'   │ 'boo.us'                    │ 'https://livestream.telvue.com/templeuni1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8'             │ 'invalid_id'  │
+│ 1       │ 14135       │ 'streams:add'    │ 'BBCWorldNews.uk@SouthAsia' │ 'http://103.199.161.254/Content/bbcworld/Live/Channel%28BBCworld%29/Stream%2801%29/index.m3u8'            │ 'wrong_id'    │
+│ 2       │ 14177       │ 'streams:add'    │ 'TUTV.us'                   │ 'https://livestream.telvue.com/templeuni1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8'             │ 'on_playlist' │
+│ 3       │ 14178       │ 'streams:add'    │ 'TV3.my'                    │ 'https://live-streams-ssai-01.tonton.com.my/live/2dd2b7cd-1b34-4871-b669-57b5c9beca23/live.isml/.m3u8...' │ 'blocked'     │
+│ 4       │ 16120       │ 'streams:remove' │ undefined                   │ 'http://190.61.102.67:2000/play/a038/index.m3u8'                                                          │ 'wrong_link'  │
+│ 5       │ 19956       │ 'channel search' │ 'CNBCe.tr'                  │ undefined                                                                                                 │ 'invalid_id'  │
+│ 6       │ 19957       │ 'channel search' │ '13thStreet.au'             │ undefined                                                                                                 │ 'closed'      │
+│ 7       │ 20956       │ 'channel search' │ 'IONTV.us'                  │ undefined                                                                                                 │ 'fulfilled'   │
+└─────────┴─────────────┴──────────────────┴─────────────────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────┴───────────────┘`)
+    ).toBe(true)
+  })
 })

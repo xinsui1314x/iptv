@@ -1,25 +1,33 @@
-import { Logger, Storage, Collection } from '@freearhey/core'
+import { Logger, Storage } from '@freearhey/core'
 import { STREAMS_DIR, DATA_DIR } from '../../constants'
-import { PlaylistParser } from '../../core'
-import { Stream, Playlist, Channel } from '../../models'
+import { DataLoader, DataProcessor, PlaylistParser } from '../../core'
+import { Stream, Playlist } from '../../models'
 import { program } from 'commander'
+import { DataLoaderData } from '../../types/dataLoader'
+import { DataProcessorData } from '../../types/dataProcessor'
 
 program.argument('[filepath]', 'Path to file to validate').parse(process.argv)
 
 async function main() {
-  const storage = new Storage(STREAMS_DIR)
   const logger = new Logger()
 
-  logger.info('loading channels from api...')
+  logger.info('loading data from api...')
+  const processor = new DataProcessor()
   const dataStorage = new Storage(DATA_DIR)
-  const channelsContent = await dataStorage.json('channels.json')
-  const groupedChannels = new Collection(channelsContent)
-    .map(data => new Channel(data))
-    .keyBy((channel: Channel) => channel.id)
+  const loader = new DataLoader({ storage: dataStorage })
+  const data: DataLoaderData = await loader.load()
+  const { channelsKeyById, feedsGroupedByChannelId, logosGroupedByStreamId }: DataProcessorData =
+    processor.process(data)
 
   logger.info('loading streams...')
-  const parser = new PlaylistParser({ storage })
-  const files = program.args.length ? program.args : await storage.list('**/*.m3u')
+  const streamsStorage = new Storage(STREAMS_DIR)
+  const parser = new PlaylistParser({
+    storage: streamsStorage,
+    channelsKeyById,
+    feedsGroupedByChannelId,
+    logosGroupedByStreamId
+  })
+  const files = program.args.length ? program.args : await streamsStorage.list('**/*.m3u')
   let streams = await parser.parse(files)
 
   logger.info(`found ${streams.count()} streams`)
@@ -35,8 +43,8 @@ async function main() {
 
   logger.info('removing wrong id...')
   streams = streams.map((stream: Stream) => {
-    if (groupedChannels.missing(stream.channel)) {
-      stream.channel = ''
+    if (!stream.channel || channelsKeyById.missing(stream.channel.id)) {
+      stream.id = ''
     }
 
     return stream
@@ -46,22 +54,22 @@ async function main() {
   streams = streams.orderBy(
     [
       (stream: Stream) => stream.name,
-      (stream: Stream) => parseInt(stream.quality.replace('p', '')),
-      (stream: Stream) => stream.label,
+      (stream: Stream) => stream.getVerticalResolution(),
+      (stream: Stream) => stream.getLabel(),
       (stream: Stream) => stream.url
     ],
     ['asc', 'desc', 'asc', 'asc']
   )
 
   logger.info('saving...')
-  const groupedStreams = streams.groupBy((stream: Stream) => stream.filepath)
+  const groupedStreams = streams.groupBy((stream: Stream) => stream.getFilepath())
   for (let filepath of groupedStreams.keys()) {
     const streams = groupedStreams.get(filepath) || []
 
     if (!streams.length) return
 
     const playlist = new Playlist(streams, { public: false })
-    await storage.save(filepath, playlist.toString())
+    await streamsStorage.save(filepath, playlist.toString())
   }
 }
 

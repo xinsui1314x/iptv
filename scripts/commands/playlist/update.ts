@@ -1,40 +1,60 @@
+import { DataLoader, DataProcessor, IssueLoader, PlaylistParser } from '../../core'
 import { Logger, Storage, Collection, Dictionary } from '@freearhey/core'
-import { DATA_DIR, STREAMS_DIR } from '../../constants'
-import { IssueLoader, PlaylistParser } from '../../core'
+import type { DataProcessorData } from '../../types/dataProcessor'
 import { Stream, Playlist, Channel, Issue } from '../../models'
+import type { DataLoaderData } from '../../types/dataLoader'
+import { DATA_DIR, STREAMS_DIR } from '../../constants'
+import validUrl from 'valid-url'
 
 let processedIssues = new Collection()
-let streams: Collection
-let groupedChannels: Dictionary
 
 async function main() {
-  const logger = new Logger({ disabled: true })
-  const loader = new IssueLoader()
+  const logger = new Logger({ level: -999 })
+  const issueLoader = new IssueLoader()
 
-  logger.info('loading channels from api...')
+  logger.info('loading issues...')
+  const issues = await issueLoader.load()
+
+  logger.info('loading data from api...')
+  const processor = new DataProcessor()
   const dataStorage = new Storage(DATA_DIR)
-  const channelsContent = await dataStorage.json('channels.json')
-  groupedChannels = new Collection(channelsContent)
-    .map(data => new Channel(data))
-    .keyBy((channel: Channel) => channel.id)
+  const dataLoader = new DataLoader({ storage: dataStorage })
+  const data: DataLoaderData = await dataLoader.load()
+  const { channelsKeyById, feedsGroupedByChannelId, logosGroupedByStreamId }: DataProcessorData =
+    processor.process(data)
 
   logger.info('loading streams...')
   const streamsStorage = new Storage(STREAMS_DIR)
-  const parser = new PlaylistParser({ storage: streamsStorage })
+  const parser = new PlaylistParser({
+    storage: streamsStorage,
+    feedsGroupedByChannelId,
+    logosGroupedByStreamId,
+    channelsKeyById
+  })
   const files = await streamsStorage.list('**/*.m3u')
-  streams = await parser.parse(files)
+  const streams = await parser.parse(files)
 
-  logger.info('removing broken streams...')
-  await removeStreams(loader)
+  logger.info('removing streams...')
+  await removeStreams({ streams, issues })
 
   logger.info('edit stream description...')
-  await editStreams(loader)
+  await editStreams({
+    streams,
+    issues,
+    channelsKeyById,
+    feedsGroupedByChannelId
+  })
 
   logger.info('add new streams...')
-  await addStreams(loader)
+  await addStreams({
+    streams,
+    issues,
+    channelsKeyById,
+    feedsGroupedByChannelId
+  })
 
   logger.info('saving...')
-  const groupedStreams = streams.groupBy((stream: Stream) => stream.filepath)
+  const groupedStreams = streams.groupBy((stream: Stream) => stream.getFilepath())
   for (let filepath of groupedStreams.keys()) {
     let streams = groupedStreams.get(filepath) || []
     streams = streams.filter((stream: Stream) => stream.removed === false)
@@ -49,81 +69,130 @@ async function main() {
 
 main()
 
-async function removeStreams(loader: IssueLoader) {
-  const issues = await loader.load({ labels: ['streams:remove', 'approved'] })
-  issues.forEach((issue: Issue) => {
+async function removeStreams({ streams, issues }: { streams: Collection; issues: Collection }) {
+  const requests = issues.filter(
+    issue => issue.labels.includes('streams:remove') && issue.labels.includes('approved')
+  )
+  requests.forEach((issue: Issue) => {
     const data = issue.data
-    if (data.missing('stream_url')) return
+    if (data.missing('streamUrl')) return
 
-    const found: Stream = streams.first((_stream: Stream) => _stream.url === data.get('stream_url'))
-    if (found) {
-      found.removed = true
-      processedIssues.add(issue.number)
-    }
+    const streamUrls = data.getString('streamUrl') || ''
+
+    let changed = false
+    streamUrls
+      .split(/\r?\n/)
+      .filter(Boolean)
+      .forEach(link => {
+        const found: Stream = streams.first((_stream: Stream) => _stream.url === link.trim())
+        if (found) {
+          found.removed = true
+          changed = true
+        }
+      })
+
+    if (changed) processedIssues.add(issue.number)
   })
 }
 
-async function editStreams(loader: IssueLoader) {
-  const issues = await loader.load({ labels: ['streams:edit', 'approved'] })
-  issues.forEach((issue: Issue) => {
+async function editStreams({
+  streams,
+  issues,
+  channelsKeyById,
+  feedsGroupedByChannelId
+}: {
+  streams: Collection
+  issues: Collection
+  channelsKeyById: Dictionary
+  feedsGroupedByChannelId: Dictionary
+}) {
+  const requests = issues.filter(
+    issue => issue.labels.includes('streams:edit') && issue.labels.includes('approved')
+  )
+  requests.forEach((issue: Issue) => {
     const data = issue.data
 
-    if (data.missing('stream_url')) return
+    if (data.missing('streamUrl')) return
 
-    let stream = streams.first(
-      (_stream: Stream) => _stream.url === data.get('stream_url')
-    ) as Stream
-
+    let stream: Stream = streams.first(
+      (_stream: Stream) => _stream.url === data.getString('streamUrl')
+    )
     if (!stream) return
 
-    if (data.has('channel_id')) {
-      const channel = groupedChannels.get(data.get('channel_id'))
+    const streamId = data.getString('streamId') || ''
+    const [channelId, feedId] = streamId.split('@')
 
-      if (!channel) return
-
-      stream.channel = data.get('channel_id')
-      stream.filepath = `${channel.country.toLowerCase()}.m3u`
-      stream.line = -1
-      stream.name = channel.name
+    if (channelId) {
+      stream
+        .setChannelId(channelId)
+        .setFeedId(feedId)
+        .withChannel(channelsKeyById)
+        .withFeed(feedsGroupedByChannelId)
+        .updateId()
+        .updateName()
+        .updateFilepath()
     }
 
-    if (data.has('channel_name')) stream.name = data.get('channel_name')
-    if (data.has('label')) stream.label = data.get('label')
-    if (data.has('quality')) stream.quality = data.get('quality')
-    if (data.has('timeshift')) stream.timeshift = data.get('timeshift')
-    if (data.has('user_agent')) stream.userAgent = data.get('user_agent')
-    if (data.has('http_referrer')) stream.httpReferrer = data.get('http_referrer')
-    if (data.has('channel_name')) stream.name = data.get('channel_name')
+    stream.update(data)
 
     processedIssues.add(issue.number)
   })
 }
 
-async function addStreams(loader: IssueLoader) {
-  const issues = await loader.load({ labels: ['streams:add', 'approved'] })
-  issues.forEach((issue: Issue) => {
+async function addStreams({
+  streams,
+  issues,
+  channelsKeyById,
+  feedsGroupedByChannelId
+}: {
+  streams: Collection
+  issues: Collection
+  channelsKeyById: Dictionary
+  feedsGroupedByChannelId: Dictionary
+}) {
+  const requests = issues.filter(
+    issue => issue.labels.includes('streams:add') && issue.labels.includes('approved')
+  )
+  requests.forEach((issue: Issue) => {
     const data = issue.data
-    if (data.missing('channel_id') || data.missing('stream_url')) return
-    if (streams.includes((_stream: Stream) => _stream.url === data.get('stream_url'))) return
+    if (data.missing('streamId') || data.missing('streamUrl')) return
+    if (streams.includes((_stream: Stream) => _stream.url === data.getString('streamUrl'))) return
+    const streamUrl = data.getString('streamUrl') || ''
+    if (!isUri(streamUrl)) return
 
-    const channel = groupedChannels.get(data.get('channel_id'))
+    const streamId = data.getString('streamId') || ''
+    const [channelId, feedId] = streamId.split('@')
 
+    const channel: Channel = channelsKeyById.get(channelId)
     if (!channel) return
 
+    const label = data.getString('label') || null
+    const quality = data.getString('quality') || null
+    const httpUserAgent = data.getString('httpUserAgent') || null
+    const httpReferrer = data.getString('httpReferrer') || null
+    const directives = data.getArray('directives') || []
+
     const stream = new Stream({
-      channel: data.get('channel_id'),
-      url: data.get('stream_url'),
-      label: data.get('label'),
-      quality: data.get('quality'),
-      timeshift: data.get('timeshift'),
-      userAgent: data.get('user_agent'),
-      httpReferrer: data.get('http_referrer'),
-      filepath: `${channel.country.toLowerCase()}.m3u`,
-      line: -1,
-      name: data.get('channel_name') || channel.name
+      channel: channelId,
+      feed: feedId,
+      name: data.getString('channelName') || channel.name,
+      url: streamUrl,
+      user_agent: httpUserAgent,
+      referrer: httpReferrer,
+      directives,
+      quality,
+      label
     })
+      .withChannel(channelsKeyById)
+      .withFeed(feedsGroupedByChannelId)
+      .updateName()
+      .updateFilepath()
 
     streams.add(stream)
     processedIssues.add(issue.number)
   })
+}
+
+function isUri(string: string) {
+  return validUrl.isUri(encodeURI(string))
 }
